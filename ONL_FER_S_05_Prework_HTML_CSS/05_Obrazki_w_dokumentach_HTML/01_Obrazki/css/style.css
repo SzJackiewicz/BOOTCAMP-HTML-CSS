@@ -1,0 +1,10 @@
+body {
+    margin: 30px;
+}
+
+img {
+    margin-bottom:20px;
+    border:1px solid #ddd;
+    padding:10px;
+    vertical-align: top;
+}

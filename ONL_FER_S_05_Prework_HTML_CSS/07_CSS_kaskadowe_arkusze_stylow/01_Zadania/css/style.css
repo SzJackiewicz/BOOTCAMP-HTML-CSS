@@ -1,0 +1,70 @@
+body {
+  padding: 20px;
+  background-color: darkgoldenrod;
+}
+
+.book {
+  background: #fff;
+  margin: 40px auto;
+  padding: 50px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  color: #555;
+  border: 3px solid #885a35;
+  max-width: 800px;
+  line-height: 1.4em;
+}
+
+.book-title {
+  color: #885a35;
+  text-transform: uppercase;
+  margin-top: 0;
+  font-size: 3rem;
+}
+
+.book-content img {
+  float: right;
+  margin: 0 0 30px 30px;
+}
+
+.book-content p:first-of-type::first-letter {
+  float: left;
+  font-size: 8rem;
+  line-height: 8rem;
+  margin: 0 30px 0 0;
+}
+
+@media (max-width: 1000px) {
+  .book {
+    margin: 10px;
+    padding: 30px;
+    max-width: none;
+  }
+
+  .book-title {
+    text-align: center;
+  }
+
+  .book-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .book-content img {
+    width: 100%;
+    float: none;
+    margin: 0;
+    margin-bottom: 30px;
+    order: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 10px;
+  }
+
+  .book {
+    margin: 0;
+  }
+}

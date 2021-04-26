@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;    
+}
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+th {
+    border:1px solid #ddd;
+    vertical-align: middle;
+}
+thead td,
+thead th {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+thead {}
+tr td {
+    padding:30px;
+    border:1px solid #ddd;
+    text-align: center;
+}
+tr td:nth-of-type(7) {
+    background: #FF6347;
+    color: #fff;
+}

@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+}
+.main-nav {
+    background: #eee;
+    padding:20px;
+}
+.main-nav ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.main-nav a {
+    display: inline-block;
+    border:2px solid crimson;
+    border-radius: 2px;
+    background: crimson;
+    color: #fff;
+    padding:10px 20px;
+    text-decoration: none;
+}
+
+.book {
+    border:2px solid #ddd;
+    margin:10px 0;
+    padding:20px;
+}
+.chapters {
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.chapters li {
+    margin:10px 0;
+}
+.chapters a {
+    color: crimson;
+    font-weight: bold;
+}

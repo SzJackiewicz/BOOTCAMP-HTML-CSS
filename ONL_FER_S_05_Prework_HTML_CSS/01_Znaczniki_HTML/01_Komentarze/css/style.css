@@ -1,0 +1,5 @@
+p[data-id="3"],
+p[data-id="5"],
+p[data-id="7"] {
+  color: red;
+}

@@ -1,0 +1,50 @@
+body {
+  background: #3f1d2b url(../images/prague-streets-at-night-colorful-abstract-edit-picjumbo-com.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 680px;
+  max-width: 90%;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.95);
+  font-size: 15px;
+  line-height: 1.5em;
+  color:rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
+  font-family: sans-serif;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+}
+
+h1,
+h2,
+h3 {
+  color: #b4411e;
+  font-size: 32px;
+  line-height: 1em;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery a {
+  box-sizing: border-box;
+  max-width: 50%;
+  padding: 3px;
+}
+.gallery img {
+  display: block;
+  max-width: 100%;
+  transition: 0.5s;
+  filter: grayscale(0.5);
+}
+.gallery img:hover {
+  filter: grayscale(0);
+}

@@ -1,0 +1,24 @@
+body {
+    padding:0;
+    margin:0;
+    font-family: cursive;
+}
+.bg {
+    background-image: url(../images/clouds-country.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    width:50%;
+    height:100vh;
+    position: fixed;
+    left:50%;
+    top:0;
+}
+.container {
+    max-width:50%;
+    padding: 5rem;
+    box-sizing: border-box;
+}
+cite {
+    font-style: inherit;
+}
